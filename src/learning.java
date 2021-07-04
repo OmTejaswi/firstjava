@@ -4,7 +4,7 @@ public class learning {
         // System.out.println("Hello, World!");
 
         // string
-        String name = "harry";
+        String name = "Om Tejaswi";
         System.out.println(name);
 
         // int ,float,  bool

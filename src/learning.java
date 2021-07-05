@@ -88,5 +88,13 @@ public class learning {
                 System.out.println("Sorry, please enter a valid number between 1 - 7");
                 break;
         }
+
+         // loops
+        // while loop
+        int i = 0;
+        while (i < 100) {
+            System.out.println(i);
+            i++;
+        }
     }
 }

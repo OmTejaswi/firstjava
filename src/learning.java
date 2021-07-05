@@ -94,5 +94,10 @@ public class learning {
             System.out.println(i);
             i++;
         }
+
+        // for loop
+        for (int j = 0; j < 100; j++) {
+            System.out.println(j);
+        }
     }
 }

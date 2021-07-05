@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class learning {
     public static void main(String[] args) {
-        // code starts
+      // code starts
         // System.out.println("Hello, World!");
 
         // string
@@ -99,5 +99,18 @@ public class learning {
         for (int j = 0; j < 100; j++) {
             System.out.println(j);
         }
+
+        // array
+        int [] marks = {1,2,3,4,5};
+        System.out.println(marks[1]);
+
+        // for each loop
+        for (int h : marks) {
+            System.out.println(h);
+        }
+
+        // two dimensinol array
+        int [][] matrix = {{1,2,3},{4,3,2}};
+        System.out.println(matrix[1][2]);
     }
 }

@@ -133,7 +133,6 @@ public class learning {
          try {
             System.out.println(cars[4]);
          } catch (Exception e) {
-             //TODO: handle exception
              System.out.println(e);
          }
        System.out.println("Hello World I am ready");

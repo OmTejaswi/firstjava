@@ -136,6 +136,7 @@ public class learning {
              System.out.println(e);
          }
        System.out.println("Hello World I am ready");
+       scan.close();
 
     //    shorthand try
     //    println("Hello World");

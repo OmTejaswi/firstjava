@@ -1,6 +1,16 @@
 import java.util.Scanner;
 
 public class learning {
+
+    // Method Shorhand
+    static void println(Object line) {
+        System.out.println(line);
+    }
+
+    static void print(Object line) {
+        System.out.print(line);
+    }
+
     public static void main(String[] args) {
       // code starts
         // System.out.println("Hello, World!");
@@ -112,5 +122,23 @@ public class learning {
         // two dimensinol array
         int [][] matrix = {{1,2,3},{4,3,2}};
         System.out.println(matrix[1][2]);
+
+        // for each loop
+        String [] cars = {"Maruti","Suzuki","Innova","Ford Titanium"};
+        for(String value:cars){
+            System.out.println(value);
+        }
+
+        //Try - catch
+         try {
+            System.out.println(cars[4]);
+         } catch (Exception e) {
+             //TODO: handle exception
+             System.out.println(e);
+         }
+       System.out.println("Hello World I am ready");
+
+    //    shorthand try
+    //    println("Hello World");
     }
 }

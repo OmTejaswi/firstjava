@@ -12,7 +12,7 @@ public class learning {
     }
 
     public static void main(String[] args) {
-      // code starts
+        // code starts
         // System.out.println("Hello, World!");
 
         // string
@@ -111,7 +111,7 @@ public class learning {
         }
 
         // array
-        int [] marks = {1,2,3,4,5};
+        int[] marks = { 1, 2, 3, 4, 5 };
         System.out.println(marks[1]);
 
         // for each loop
@@ -120,25 +120,25 @@ public class learning {
         }
 
         // two dimensinol array
-        int [][] matrix = {{1,2,3},{4,3,2}};
+        int[][] matrix = { { 1, 2, 3 }, { 4, 3, 2 } };
         System.out.println(matrix[1][2]);
 
         // for each loop
-        String [] cars = {"Maruti","Suzuki","Innova","Ford Titanium"};
-        for(String value:cars){
+        String[] cars = { "Maruti", "Suzuki", "Innova", "Ford Titanium" };
+        for (String value : cars) {
             System.out.println(value);
         }
 
-        //Try - catch
-         try {
+        // Try - catch
+        try {
             System.out.println(cars[4]);
-         } catch (Exception e) {
-             System.out.println(e);
-         }
-       System.out.println("Hello World I am ready");
-       scan.close();
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+        System.out.println("Hello World I am ready");
+        scan.close();
 
-    //    shorthand try
-    //    println("Hello World");
+        // shorthand try
+        // println("Hello World");
     }
 }

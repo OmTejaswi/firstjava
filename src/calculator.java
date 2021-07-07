@@ -18,29 +18,28 @@ public class calculator {
 
             String prompt = "Enter \"+\" for addition, \"-\" for substraction, \"*\" for multiplication, \"/\" for division:";
             System.out.println(prompt);
-            
+
             scan.nextLine();
             String op = scan.nextLine();
 
             switch (op) {
                 case "+":
-                    System.out.println(num1+num2);
+                    System.out.println(num1 + num2);
                     break;
                 case "-":
-                    System.out.println(num1-num2);
+                    System.out.println(num1 - num2);
                     break;
                 case "*":
-                    System.out.println(num1*num2);
+                    System.out.println(num1 * num2);
                     break;
                 case "/":
-                    System.out.println(num1/num2);
+                    System.out.println(num1 / num2);
                     break;
-            
+
                 default:
                     System.out.println("Invalid imput");
                     break;
             }
-
 
         } catch (Exception e) {
             System.out.println("Please enter a valid value (number).");
